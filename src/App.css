@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Lato:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-color: #1a1a1d;
+  background-image: url(https://t4.ftcdn.net/jpg/08/70/87/25/360_F_870872563_0ZxYTYAO6p8bTQzFxCt5S9BuOF5mBX9s.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.container {
+  background-color: whitesmoke;
+  max-width: 700px;
+  margin-top: 70px;
+  border-radius: 8px;
+  text-align: center;
+  margin-left: 400px;
+}
+
+.lock-icon {
+  display: block;
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+.header {
+  color: black;
+}
+
+.footer {
+  background-color: black;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+  height: auto;
+}
+
+.para {
+  margin-top: -20px;
+}
+
+.button {
+  background-color: #008080;
+  border-radius: 6px;
+  border: 0;
+  margin-top: 2px;
+  height: 35px;
+  width: 22%;
+  margin-left: 50px;
+}
+
+.button:hover {
+  background-color: #009999;
+}
+
+.button:active {
+  background-color: #006666;
+}
+
+.input-box {
+  position: relative;
+  width: 250px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 30px 10px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input1 {
+  width: 5%;
+  padding: 5px 0px 5px 7px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input:focus,
+.input1:focus {
+  outline: none;
+  border-color: #008080;
+}
+
+.input-icon {
+  position: absolute;
+  right: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.input-container {
+  display: inline-flex;
+}
+
+.count-container {
+  display: flex;
+  align-items: center;
+  margin-left: 168px;
+}
+
+.count-container p {
+  margin-right: 10px;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.checkbox-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkbox-item label {
+  padding-left: 168px;
+  text-align: left;
+}
+
+.checkbox-item input {
+  margin-right: 168px;
+  text-align: right;
+  width: 18px;
+  height: 18px;
+  color: #008080;
+}
+
+.lower-padding {
+  padding-bottom: 20px;
+}
