@@ -16,7 +16,7 @@ CSS
 
 # Installation
 
-Follow these steps to set up the project locally on your system:
+**Follow these steps to set up the project locally on your system:**
 
 Clone the Repository: git clone https://github.com/rishigupta19/Password_Generator
 
