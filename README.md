@@ -1,3 +1,5 @@
+#### Password Generator
+
 A React-based password generator application that allows users to create strong passwords based on their preferences. It includes adjustable password length and selectable character options, making it flexible and secure.
 
 # Features
