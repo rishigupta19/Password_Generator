@@ -1,8 +1,35 @@
-# React + Vite
+A React-based password generator application that allows users to create strong passwords based on their preferences. It includes adjustable password length and selectable character options, making it flexible and secure.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Features**
 
-Currently, two official plugins are available:
+Generate passwords using uppercase, lowercase, numbers, and special characters.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Adjustable password length using a slider.
+
+Dynamic checkboxes to include/exclude character types.
+
+Copy the generated password to the clipboard with one click.
+
+Default settings for a pre-generated password on page load.
+
+**Technologies Used**
+
+React
+
+JavaScript
+
+CSS
+
+**Installation**
+
+Follow these steps to set up the project locally on your system:
+
+Clone the Repository: git clone https://github.com/rishigupta19/Password_Generator
+
+Install Dependencies: npm install
+
+Start the Development Server: npm run dev
+
+**License**
+
+This project is licensed under the MIT License. See the LICENSE file for details.
