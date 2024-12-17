@@ -19,7 +19,9 @@ CSS
 Follow these steps to set up the project locally on your system:
 
 Clone the Repository: git clone https://github.com/rishigupta19/Password_Generator
+
 Install Dependencies: npm install
+
 Start the Development Server: npm run dev
 
 # License
